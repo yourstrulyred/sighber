@@ -1,0 +1,167 @@
+body {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #B0C4C6;
+}
+
+
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+
+ }
+
+ div h1{
+  margin-bottom: 25px;
+  padding-left: 10px;
+ }
+
+div nav {
+ margin-right: 90px;
+ }
+
+
+header p {
+  padding: 0px 20px;
+  margin: 0;
+}
+
+nav p {
+  padding-top: 9px;
+  padding-bottom: 4px;
+  padding-left:4px;
+  padding-right:40px;
+   border-style: solid;
+  border-color: #1C484D;
+  border-width: 1.5px;
+
+}
+
+
+
+
+
+.jumbotron {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  background-image: url("https://wallpapercave.com/wp/m6BhREu.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  word-wrap: break-word;
+}
+
+.jumbotron h2 {
+
+  font-family:  'Roboto', sans-serif;
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+   word-wrap: break-word;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.jumbotron p {
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: lightgray;
+   word-wrap: break-word;
+}
+
+.column {
+
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+   word-wrap: break-word;
+}
+
+.column {
+  float: right;
+  height:452px;
+  width: 30%;
+  padding: 15px;
+   word-wrap: break-word;
+}
+
+
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.col-md-4 p{
+  padding-right: 15px;
+  margin: 5 3 30px;
+}
+.col-md-4 p {
+  font-size: 15px;
+font-color:#1B464B;
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  font-color: #6A5130 ;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
